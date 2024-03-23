@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 
@@ -18,7 +19,7 @@ a {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
@@ -28,20 +29,6 @@ a {
 }
 
 /*Menu nav*/
-
-.nav-link-studio {
-  color: #2e2f42;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.5rem;
-  letter-spacing: 0.02rem;
-}
-
-.nav-link-studio:hover,
-.nav-link-studio:focus,
-.nav-link-studio:active {
-  color: #404bbf;
-}
 
 .nav-link {
   color: #2e2f42;
@@ -85,7 +72,7 @@ a {
   text-align: center;
   font-size: 3.5rem;
   font-weight: 700;
-  line-height: 3.75rem;
+  line-height: 1.07;
   letter-spacing: 0.07rem;
 }
 
@@ -97,9 +84,13 @@ a {
   font-weight: 500;
   line-height: 1.5rem; /* 150% */
   letter-spacing: 0.04rem;
-}
-.main-button {
+  background-color: #4d5ae5;
   cursor: pointer;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
 }
 
 /* Section 2 Advantages*/
@@ -135,8 +126,9 @@ a {
   text-align: center;
   font-size: 2.25rem;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.11;
   letter-spacing: 0.045rem;
+  text-transform: capitalize;
 }
 .team-card {
   background-color: #fff;
@@ -167,8 +159,9 @@ a {
   text-align: center;
   font-size: 2.25rem;
   font-weight: 700;
-  line-height: 2.5rem;
+  line-height: 1.11;
   letter-spacing: 0.045rem;
+  text-transform: capitalize;
 }
 .project-card {
   background-color: #fff;
@@ -208,7 +201,7 @@ a {
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
