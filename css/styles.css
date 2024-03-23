@@ -14,7 +14,7 @@ a {
 /*Header*/
 
 /*Logo*/
-.nav-logo {
+.logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
@@ -24,7 +24,7 @@ a {
   text-transform: uppercase;
 }
 
-.nav-logo-part2 {
+.logo-part {
   color: #2e2f42;
 }
 
@@ -187,16 +187,16 @@ a {
 }
 
 /* Logo */
-.footer-logo {
+.logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
-  line-height: 1.3125rem;
+  line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
-.footer-logo-part2 {
+.logo-part {
   color: #f4f4fd;
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
