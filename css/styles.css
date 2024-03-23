@@ -14,17 +14,17 @@ a {
 /*Header*/
 
 /*Logo*/
-.logo {
+.nav-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
-  font-size: 18px;
+  font-size: 1.125rem;
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
 
-.logo-part {
+.nav-logo-part {
   color: #2e2f42;
 }
 
@@ -187,7 +187,7 @@ a {
 }
 
 /* Logo */
-.logo {
+.footer-logo {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 1.125rem;
@@ -196,14 +196,8 @@ a {
   letter-spacing: 0.03375rem;
   text-transform: uppercase;
 }
-.logo-part {
+.footer-logo-part {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
-  font-size: 1.125rem;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03375rem;
-  text-transform: uppercase;
 }
 .footer-text {
   color: #f4f4fd;
